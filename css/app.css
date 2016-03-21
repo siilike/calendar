@@ -43,7 +43,7 @@ body {
     position: absolute;
     top: 42px;
     left: 0;
-    right: 0;
+    right: -25px;
     bottom: 0;
 }
 .data .columns-container {
@@ -52,6 +52,7 @@ body {
 
 .schedule-container {
 	min-height: 100%;
+	margin-right:10px;
 }
 
 .steps {
