@@ -1,0 +1,72 @@
+body {
+	overflow: hidden;
+}
+.wrapper {
+	position: absolute;
+	top:51px;
+	left:0;
+	bottom:0;
+	right:0;
+	background:#efefef;
+}
+
+.columns-container {
+	display:-webkit-box;
+}
+
+.column-day {
+	-webkit-box-flex:1;
+	-webkit-flex: 1;
+	margin:1px;
+	min-height:40px;
+	border-right:1px solid #ccc;
+	text-align:center;
+	width: 0.1428571429%;
+}
+
+.column-day .schedules {
+	width:50px;
+}
+
+.column-day:last-child {
+	border-right:0;
+}
+
+.week-header {
+	border-bottom:1px solid #ccc;
+	margin-left:40px;
+}
+
+.data {
+	overflow-y: scroll;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.data .columns-container {
+	margin-left:40px;
+}
+
+.schedule-container {
+	min-height: 100%;
+}
+
+.steps {
+	position: absolute;
+	left:0;
+	top:0px;
+	width:40px;
+	background: #444;
+	color:#fff;
+	font-size:10px;
+	font-weight: 300;
+	text-align: center;
+}
+.step {
+	border-bottom:1px solid #000;
+	box-sizing:border-box;
+	vertical-align: middle;
+	padding-top:15px;
+}
