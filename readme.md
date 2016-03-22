@@ -12,5 +12,18 @@ Given /js/data.json, which is already requested via AJAX in /js/app.js, render i
 
 An expected output can be found in /img/expected.png.
 
+## How to run
+
+Use any HTTP server to run the index.html.
+
+*Python*
+python -M SimpleHTTPServer
+
+*PHP*
+php -S localhost:8000
+
+You can also use apache or nginx. Just serve static content.
+
 ## Tips
 The key is not on the CSS. Each event can be an absolute positioned div.
+
