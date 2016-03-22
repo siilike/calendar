@@ -23,17 +23,6 @@
 				height: $(".steps").height()+"px"
 			});
 
-
-
-			// Match columns width
-			// for (var i=0;i<6;i++) {
-			// 	var width = $(".data .column-day:eq("+i+")").width();
-			// 	console.log(width);
-			// 	$(".week-header .column-day:eq("+i+")").css({
-			// 		width: width+"px"
-			// 	})
-			// }
-
 			// Fetch data
 
 			$.getJSON("/js/data.json",function(r){
