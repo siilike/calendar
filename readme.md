@@ -16,10 +16,12 @@ An expected output can be found in /img/expected.png.
 
 Use any HTTP server to run the index.html.
 
-*Python*
+**Python**
+
 python -M SimpleHTTPServer
 
-*PHP*
+**PHP**
+
 php -S localhost:8000
 
 You can also use apache or nginx. Just serve static content.
