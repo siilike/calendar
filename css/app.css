@@ -72,3 +72,15 @@ body {
 	vertical-align: middle;
 	padding-top:15px;
 }
+
+.event
+{
+	position: absolute;
+	background: blue;
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	border-color: #EFEFEF;
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+}
